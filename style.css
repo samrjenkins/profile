@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(230,230,230);
+  font-family: "Arial";
+  color: rgb(30,30,30);
+  margin-top: 0;
+}
+
+h1 {
+  color: rgb(100,100,100);
+  font-weight: 100;
+  font-family: "Helvetica Neue";
+  letter-spacing: 1px;
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(100,100,100);
+  font-weight: 30;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(30,30,30);
+}
+
+a:hover {
+  color: rgb(100,100,100);
+}
+
+.container {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 2px;
+}
+
+.img_circle {
+  border-radius: 50%;
+}
+
+.avatar_size {
+  width: 300px;
+}
+
+.film_pic_size {
+  width: 200px;
+  height: 296px;
+  color: black;
+}
+
+.list_inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list_inline {
+  padding-left: 0px;
+}
+
+.fab {
+  font-size: 60px;
+  color: rgba(0,0,100, 0.8);
+}
+
+.fab:hover {
+  color: rgba(0,0,100, 0.4);
+}
+
+.full_width {
+  width: 100%;
+}
+
+.position_relative {
+  position: relative;
+}
+
+.position_absolute {
+  position: absolute;
+}
+
+.middle_center {
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom_center {
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.text_align_center {
+  text-align: center;
+}
+
+.hateful_eight {
+  background-image: url('images/hateful_eight.jpg');
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.django {
+  background-image: url('images/django_unchained.jpg');
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.brian {
+  background-image: url('images/life_of_brian.jpg');
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.fade {
+  background: radial-gradient(rgba(255,255,255, 0.6), rgba(255,255,255,0.1));
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.fade:hover {
+  background: none;
+  color: rgba(0,0,0,0);
+}
