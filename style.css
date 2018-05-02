@@ -3,10 +3,10 @@ body {
   font-family: "Arial";
   color: rgb(30,30,30);
   margin-top: 0;
+  color: rgb(100,100,100);
 }
 
 h1 {
-  color: rgb(100,100,100);
   font-weight: 100;
   font-family: "Helvetica Neue";
   letter-spacing: 1px;
@@ -14,7 +14,6 @@ h1 {
 }
 
 h2 {
-  color: rgb(100,100,100);
   font-weight: 30;
 }
 
@@ -120,6 +119,12 @@ a:hover {
   margin: 10px auto;
 }
 
+.revenant {
+  background-image: url('images/revenant.jpg');
+  background-size: cover;
+  margin: 10px auto;
+}
+
 .fade:hover {
   background: radial-gradient(rgba(255,255,255, 0.9), rgba(255,255,255,0.4));
   color: black;
@@ -166,4 +171,19 @@ a:hover {
   position: relative;
   top: 50%;
   transform: translate(0, -50%);
+}
+
+#menu_title {
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+#home {
+  padding-left: 70px;
+  padding-right: 70px;
 }
