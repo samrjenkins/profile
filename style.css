@@ -53,6 +53,7 @@ a:hover {
   width: 200px;
   height: 296px;
   color: black;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
 
 .list_inline > li {
@@ -104,24 +105,25 @@ a:hover {
 .hateful_eight {
   background-image: url('images/hateful_eight.jpg');
   background-size: cover;
-  margin: 30px auto;
+  margin: 10px auto;
 }
 
 .django {
   background-image: url('images/django_unchained.jpg');
   background-size: cover;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .brian {
   background-image: url('images/life_of_brian.jpg');
   background-size: cover;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .fade:hover {
   background: radial-gradient(rgba(255,255,255, 0.6), rgba(255,255,255,0.1));
   color: black;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
 }
 
 .fade {
@@ -140,7 +142,7 @@ a:hover {
   background-color: rgb(30,30,30);
 }
 #page-content {
-  margin-left: 300px;
+  margin-left: 135px;
 }
 
 #sidebar li {
@@ -148,9 +150,16 @@ a:hover {
   margin: 50px 0px;
 }
 
+#sidebar a:hover {
+  color: rgb(80,80,80);
+}
+
+#sidebar a {
+  color: white;
+}
+
 .fas {
   font-size: 50px;
-  color: white;
 }
 
 #sidebar ul {
